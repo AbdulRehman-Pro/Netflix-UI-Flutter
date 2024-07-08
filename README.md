@@ -18,17 +18,18 @@ This project is a Netflix clone UI built using Flutter. It features a sleek and 
 
 ## Screenshots
 
-### Home Screen
-![Home Screen](art/home_screen1.png)
+| Home Screen                             | Home Screen                               | Search Screen                             |
+|-----------------------------------------|-------------------------------------------|-------------------------------------------|
+| ![Home Screen](art/home_screen1.png)    | ![Movie Details](art/home_screen2.png)    | ![Movie Details](art/search_screen.png)   |
 
-### Movie Details
-![Movie Details](art/home_screen2.png)
 
-### Video Playback
-![Video Playback](art/search_screen.png)
 
 ## State Management
 
 The state of the AppBar and other components is managed using the `flutter_bloc` package. This ensures a scalable and maintainable architecture for managing state.
 
+## Parallax Animation
 
+The parallax effect is achieved using a custom `ParallaxFlowDelegate`. This creates a smooth and visually appealing animation for the UI components.
+
+## Enjoy coding! 🎉
